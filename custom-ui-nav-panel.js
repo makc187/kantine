@@ -1,7 +1,10 @@
 // ==UserScript==
-// @name     Custom UI Navigation Panel
-// @version  1
-// @grant    none
+// @name          Custom UI Navigation Panel
+// @description   example script to alert "Hello world!" on every page
+// @include       *
+// @exclude       http://diveintogreasemonkey.org/*
+// @exclude       http://www.diveintogreasemonkey.org/*
+// @grant         none
 // ==/UserScript==
 
 // Hello World! example user script
@@ -24,16 +27,6 @@
 // select "Hello World", and click Uninstall.
 //
 // --------------------------------------------------------------------
-//
-// ==UserScript==
-// @name          Custom UI Navigation Panel
-// @description   example script to alert "Hello world!" on every page
-// @include       *
-// @exclude       http://diveintogreasemonkey.org/*
-// @exclude       http://www.diveintogreasemonkey.org/*
-// @grant         none
-// ==/UserScript==
-
 
 var forbiddenMeals = [
   "Gegrilltes Hähnchenbrustfilet \"California Style\"",
