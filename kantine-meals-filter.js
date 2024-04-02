@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name     Kantine Meals Filter
 // @version  1
+// @include  *
 // @grant    none
 // ==/UserScript==
 
